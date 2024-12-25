@@ -837,6 +837,12 @@ Single Page Style
   'wght' 400,
   'GRAD' 0,
   'opsz' 24
+}.team-item img {
+    width: 100%; /* ทำให้รูปภาพกว้างเต็มพื้นที่ของ container */
+    height: 250px; /* กำหนดความสูงของรูปภาพ */
+    object-fit: cover; /* ครอบคลุมพื้นที่โดยไม่บิดเบือน */
+    border-radius: 10px; /* เพิ่มความโค้งให้กับมุม (ถ้าต้องการ) */
 }
+
 
 
